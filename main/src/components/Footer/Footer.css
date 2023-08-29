@@ -1,0 +1,23 @@
+.footer {
+  height: auto;
+  /* background-image: url(../../public/images/bg-footer.png); */
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer .image_footer img {
+  height: 300px;
+}
+@media (max-width: 990px) {
+  .footer .image_footer img {
+    height: 150px;
+  }
+}

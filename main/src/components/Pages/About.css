@@ -1,0 +1,22 @@
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.image img {
+  width: 700px;
+}
+@media (max-width: 768px) {
+  .image img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.refer .image .img__2 {
+  position: relative;
+}
+.refer .img__2 {
+  position: absolute;
+  left: -200px;
+  width: 650px;
+}

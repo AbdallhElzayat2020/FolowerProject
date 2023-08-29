@@ -1,0 +1,81 @@
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.blue-modal {
+  opacity: 1;
+  z-index: 10;
+  color: #000;
+  width: 500px;
+}
+.login-popup input,
+.login-popup select,
+.login-popup textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.login-popup button,
+.login-popup input,
+.login-popup optgroup,
+.login-popup select,
+.login-popup textarea:focus {
+  outline: none;
+}
+.blue-modal .modal-header {
+  border-bottom: none;
+}
+
+.blue-modal .modal-footer {
+  border-top: none;
+}
+/* .login-popup button, */
+.login-popup .text-underline {
+  text-decoration: underline;
+  color: blue;
+}
+.login-popup {
+  margin-top: 150px;
+}
+.login-popup .login_or {
+  position: relative;
+  margin-top: 40px;
+}
+.login_or .line::before {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 2px;
+  background-color: #000;
+  right: 0;
+  top: 10px;
+}
+.login_or .line::after {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 2px;
+  background-color: #000;
+  left: 0;
+  top: 10px;
+}
+.login-popup .forget {
+  position: absolute;
+  right: 30px;
+  top: -20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.login-popup .check {
+  position: absolute;
+  left: 30px;
+  top: -30px;
+  font-weight: bold;
+}
